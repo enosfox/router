@@ -6,9 +6,9 @@ Pequeno, simples e descomplicado. O router é um componentes de rotas PHP com ab
 
 ## About KitsuneCode
 
-###### KitsuneCode is a set of small and optimized PHP components for common tasks. Held by Robson V. Leite and the UpInside team. With them you perform routine tasks with fewer lines, writing less and doing much more.
+###### KitsuneCode is a set of small and optimized PHP components for common tasks. Held by Enos S. S. Silva and the Kitsune team. With them you perform routine tasks with fewer lines, writing less and doing much more.
 
-KitsuneCode é um conjunto de pequenos e otimizados componentes PHP para tarefas comuns. Mantido por Robson V. Leite e a equipe UpInside. Com eles você executa tarefas rotineiras com poucas linhas, escrevendo menos e fazendo muito mais.
+KitsuneCode é um conjunto de pequenos e otimizados componentes PHP para tarefas comuns. Mantido por Enos S. S. Silva e a equipe Kitsune. Com eles você executa tarefas rotineiras com poucas linhas, escrevendo menos e fazendo muito mais.
 
 ### Highlights
 

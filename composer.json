@@ -1,0 +1,29 @@
+{
+  "name": "kitsunecode/router",
+  "description": "A classic KitsuneCode Router is easy, fast and extremely uncomplicated. Create and manage your routes in minutes!",
+  "keywords": [
+    "KitsuneCode",
+    "MasterKitsune",
+    "Kitsune",
+    "Router",
+    "Route",
+    "Routes"
+  ],
+  "homepage": "http://www.masterkitsune.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Enos S. Sousa",
+      "email": "devenos@icloud.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "KitsuneCode\\Router\\": "src"
+    }
+  }
+}

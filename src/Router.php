@@ -26,7 +26,7 @@ class Router extends Dispatch
      * @param $handler
      * @param string|null $name
      */
-    public function post(string $route, $handler, string $name = null): void
+    public function post(string $route, $handler, ?string $name = null): void
     {
         $this->addRoute("POST", $route, $handler, $name);
     }
@@ -36,7 +36,7 @@ class Router extends Dispatch
      * @param $handler
      * @param string|null $name
      */
-    public function get(string $route, $handler, string $name = null): void
+    public function get(string $route, $handler, ?string $name = null): void
     {
         $this->addRoute("GET", $route, $handler, $name);
     }
@@ -46,7 +46,7 @@ class Router extends Dispatch
      * @param $handler
      * @param string|null $name
      */
-    public function put(string $route, $handler, string $name = null): void
+    public function put(string $route, $handler, ?string $name = null): void
     {
         $this->addRoute("PUT", $route, $handler, $name);
     }
@@ -56,7 +56,7 @@ class Router extends Dispatch
      * @param $handler
      * @param string|null $name
      */
-    public function patch(string $route, $handler, string $name = null): void
+    public function patch(string $route, $handler, ?string $name = null): void
     {
         $this->addRoute("PATCH", $route, $handler, $name);
     }
@@ -66,7 +66,7 @@ class Router extends Dispatch
      * @param $handler
      * @param string|null $name
      */
-    public function delete(string $route, $handler, string $name = null): void
+    public function delete(string $route, $handler, ?string $name = null): void
     {
         $this->addRoute("DELETE", $route, $handler, $name);
     }

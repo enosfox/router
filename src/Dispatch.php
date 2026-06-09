@@ -5,7 +5,7 @@ namespace KitsuneCode\Router;
 /**
  * Class KitsuneCode Dispatch
  *
- * @author Enos S. S. Silva <https://github.com/enosfox>
+ * @author Enos S. S. Santos <https://github.com/enosfox>
  * @package KitsuneCode\Router
  */
 abstract class Dispatch

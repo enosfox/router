@@ -320,7 +320,7 @@ Thank you
 
 ## Credits
 
-- [Enos S. Sousa](https://github.com/enosfox) (Developer)
+- [Enos S. S. Santos](https://github.com/enosfox) (Developer)
 
 ## License
 

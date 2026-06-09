@@ -18,7 +18,7 @@ trait RouterTrait
      * @param array|null $data
      * @return string|null
      */
-    public function route(string $name, array $data = null): ?string
+    public function route(string $name, ?array $data = null): ?string
     {
         foreach ($this->routes as $http_verb) {
             foreach ($http_verb as $route_item) {
@@ -34,7 +34,7 @@ trait RouterTrait
      * @param string $route
      * @param array|null $data
      */
-    public function redirect(string $route, array $data = null): void
+    public function redirect(string $route, ?array $data = null): void
     {
         if ($name = $this->route($route, $data)) {
             header("Location: {$name}");
@@ -57,7 +57,7 @@ trait RouterTrait
      * @param string|callable $handler
      * @param null|string
      */
-    protected function addRoute(string $method, string $route, $handler, string $name = null): void
+    protected function addRoute(string $method, string $route, $handler, ?string $name = null): void
     {
         if ($route == "/") {
             $this->addRoute($method, "", $handler, $name);
@@ -114,7 +114,7 @@ trait RouterTrait
      * @param array|null $data
      * @return string|null
      */
-    private function treat(array $route_item, array $data = null): ?string
+    private function treat(array $route_item, ?array $data = null): ?string
     {
         $route = $route_item["route"];
         if (!empty($data)) {
@@ -138,7 +138,7 @@ trait RouterTrait
      * @param array|null $params
      * @return string
      */
-    private function process(string $route, array $arguments, array $params = null): string
+    private function process(string $route, array $arguments, ?array $params = null): string
     {
         $params = (!empty($params) ? "?" . http_build_query($params) : null);
         return str_replace(array_keys($arguments), array_values($arguments), $route) . "{$params}";
